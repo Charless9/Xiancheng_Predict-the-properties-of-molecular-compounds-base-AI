@@ -9,5 +9,3 @@ train with deep learning models, and predict the toxicity of molecules
 # 3, merged the three types of features into a unified feature set, that is, a high-dimensional vector. 
 # 4, Use deep learning model(MLP) to train the combined feature set. 
 # 5, Optimization model performance.
-
-
