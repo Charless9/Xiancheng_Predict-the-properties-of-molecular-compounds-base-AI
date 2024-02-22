@@ -1,1 +1,11 @@
+The overall idea of the project is to use different deep learning or machine learning methods to extract features on multi-modal molecular data, 
+fuse the features of molecular data of different dimensions, 
+train with deep learning models, and predict the toxicity of molecules
+
+# 1, Get 1D SMILES,then use RDkit to generate 2D and 3D data based on 1D SMILES;
+# 2, Model the data of each mode separately and extract the features (feature encoding);
+# 3, merged the three types of features into a unified feature set, that is, a high-dimensional vector. 
+# 4, Use deep learning model(MLP) to train the combined feature set. 
+# 5, Optimization model performance.
+
 
