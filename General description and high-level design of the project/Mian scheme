@@ -4,6 +4,8 @@ train with deep learning models, and predict the toxicity of molecules
 
 # 1, Get 1D SMILES,then use RDkit to generate 2D and 3D data based on 1D SMILES;
 # 2, Model the data of each mode separately and extract the features (feature encoding);
+#    That is, RNN is used to extract the features of 1D SMILES, GNN is used to extract the features of 2D molecular diagrams, 
+#    and GNN or 3D-CNN is used to extract the features of 3D molecular diagrams
 # 3, merged the three types of features into a unified feature set, that is, a high-dimensional vector. 
 # 4, Use deep learning model(MLP) to train the combined feature set. 
 # 5, Optimization model performance.
