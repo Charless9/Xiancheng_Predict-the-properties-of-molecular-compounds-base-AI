@@ -1,1 +1,15 @@
+The raw dataset is as follows:
+SMILES type data (1D) of 1253 compounds(samples) as raw data for training set and 
+SMILES type data of 208 compounds as raw data for test set. 
+Where the training set consists of 636 hepatotoxic and 617 non-hepatotoxic compounds and 
+the test set consists of 94 hepatotoxic and 114 non-hepatotoxic compounds.
+and the labels of the samples are “Negative” and “Positive”
 
+The pre-processing of data includes three parts, namely, the processing of 1D, 2D and 3D data. The 2D and 3D data are generated on the basis of 1D SMILES using the RDkit tool
+
+# 1, For 1D SMILES, the data base, default, duplicate, labels, SMILES canonicalization were checked, and all SMILES were canonicalized.
+#    Later,RNN will use these SMILES to extract features.
+# 2, The 2D molecular graph is pre-processed, including the extraction of node attributes, edge attributes, and adjacency matrix. 
+#    Later, GNN will use these attributes to extract features.
+# 3, The 3D molecular diagram is also pre-processed, including the extraction of node attributes, edge attributes, adjacency matrix, 3D coordinates, distance matrix, voxelization.
+     Later, GNN or 3D-CNN will use these attributes to extract features.
