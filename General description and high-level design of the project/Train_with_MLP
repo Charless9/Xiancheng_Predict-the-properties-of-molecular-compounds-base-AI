@@ -1,1 +1,8 @@
-
+In this part, the features of 1D, 2D and 3D data extracted in the feature extraction part are fused, and the MLP model is built and trained. This is just a very basic version. 
+The following three parts of data preparation, feature extraction and MLP training will be optimized according to the results of offline test. 
+Specifically:
+1, the different processing of 1D data, data processing (such as data enhancement) when RNN extracts 1D SMILES and algorithm attempts; 
+2, the way of Generating node information and edge information and adjacency matrix in 2D data, 
+   and the data processing and algorithm optimization when extracting 2D data features with GCN; 
+3, The way of generating voxelization, 3D coordinates and other information in 3D data, the information types and algorithms adopted by 3D-CNN to extract features; 
+4, the way of Feature fusion and data processing and algorithm optimization of MLP training.
