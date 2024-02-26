@@ -1,1 +1,4 @@
-
+This part is also divided into three parts, that is, using the data to prepare the pre-processing results of 1D, 2D and 3D, 
+1, using RNN to extract the features of 1D SMILES;
+2, using GCN to extract the features of 2D molecular graphs, based on node information and adjacency matrix;
+3, using 3D-CNN to extract the features of 3D data, based on voxelized data.
